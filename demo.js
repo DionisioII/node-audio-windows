@@ -1,8 +1,8 @@
 
-const proctorControls  = require('.\\build\\Release\\node-audio-windows')
-console.log(proctorControls)
+const Controls  = require('.\\build\\Release\\node-audio-windows')
+console.log(Controls)
 
-JSVolumeControl = new proctorControls.JSVolumeControl()
+JSVolumeControl = new Controls.JSVolumeControl()
 
 JSVolumeControl.setMuted(false);
 JSVolumeControl.setVolume(0.7)
