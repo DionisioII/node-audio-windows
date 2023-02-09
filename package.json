@@ -1,0 +1,25 @@
+{
+  "name": "node-audio-windows",
+  "version": "1.0.0",
+  "description": "cpp utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DionisioII/node-audio-windows.git"
+  },
+  "author": "giampiero cimini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DionisioII/node-audio-windows/issues"
+  },
+  "homepage": "https://github.com/DionisioII/node-audio-windows#readme",
+  "dependencies": {
+    "node-addon-api": "^5.1.0"
+  },
+  "devDependencies": {
+    "bindings": "^1.5.0"
+  }
+}
